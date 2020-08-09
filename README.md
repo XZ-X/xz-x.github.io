@@ -10,4 +10,6 @@ Hi, I'm Xiangzhe.
 
 [Yaoming Wen](https://wym0120.github.io)(in Chinese)
 
+[Yihui Wang](https://wyhfanofariajzh.com)(in Chinese)
+
 [Yuqing Yang](https://frostwing98.com)
