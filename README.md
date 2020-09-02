@@ -13,3 +13,5 @@ Hi, I'm Xiangzhe.
 [Yihui Wang](https://wyhfanofariajzh.com)(in Chinese)
 
 [Yuqing Yang](https://frostwing98.com)
+
+[Yuchao Lin](https://kruskallin.github.io)
