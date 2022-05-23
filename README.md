@@ -1,6 +1,6 @@
 # Xiangzhe Xu
 
-Hi, I'm Xiangzhe, a first year Ph.D. student at Purdue University, advised by Prof. [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/). I obtained my B.Eng. degree from Nanjing University.
+Hi, I'm Xiangzhe, a second year Ph.D. student at Purdue University, advised by Prof. [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/). I obtained my B.Eng. degree from Nanjing University.
 
 ## Publications
 
