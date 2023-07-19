@@ -4,14 +4,20 @@ Hi, I'm Xiangzhe, a second year Ph.D. student at Purdue University, advised by P
 
 ## Publications
 
+**PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model**, Xiangzhe Xu*, Zhou Xuan*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'23).
+
+**Extracting Protocol Format as State Machine via Controlled Static Loop Analysis**, Qingkai Shi, Xiangzhe Xu, Xiangyu Zhang. The USENIX Security Symposium (USENIX'23).
+
+**Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis**, Xiangzhe Xu, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23).
+
 **Automatic Generation and Validation of Instruction Encoders and Decoders**, Xiangzhe Xu, Jinhua Wu, Yuting Wang*, Zhenguo Yin and Pengfei Li.
-The 33rd International Conference on Computer-Aided Verification (CAV), 2021. [PDF](https://link.springer.com/content/pdf/10.1007%2F978-3-030-81688-9_34.pdf)
+The 33rd International Conference on Computer-Aided Verification (CAV'21). [PDF](https://link.springer.com/content/pdf/10.1007%2F978-3-030-81688-9_34.pdf)
 
 **CompCertELF: Verified Separate Compilation of C Programs into ELF Object Files**, Yuting Wang, Xiangzhe Xu, Pierre Wilke, Zhong Shao.
-The 2020 ACM International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), 2020. [PDF](https://dl.acm.org/doi/pdf/10.1145/3428265)
+The 2020 ACM International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA'20). [PDF](https://dl.acm.org/doi/pdf/10.1145/3428265)
 
 **CPC: Automatically Classifying and Propagating Natural Language Comments via Program Analysis**, Juan Zhai, Xiangzhe Xu, Yu Shi, Guanhong Tao, Minxue Pan, Shiqing Ma, Lei Xu, Weifeng Zhang, Lin Tan, Xiangyu Zhang 
-Proceedings of the 42nd International Conference on Software Engineering (ICSE), 2020. [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380427) 
+Proceedings of the 42nd International Conference on Software Engineering (ICSE'20). [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380427) 
 
 
 <!-- ### Links to my friends
