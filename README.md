@@ -2,6 +2,9 @@
 
 Hi, I'm Xiangzhe, a second year Ph.D. student at Purdue University, advised by Prof. [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/). I obtained my B.Eng. degree from Nanjing University.
 
+Email: xzx@purdue.edu
+
+
 ## Publications
 
 **PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model**, Xiangzhe Xu\*, Zhou Xuan\*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'23).
