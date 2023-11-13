@@ -1,6 +1,9 @@
 # Xiangzhe Xu
 
+<img src="IMG_4550.jpg" width="200"/>
+
 Hi, I'm Xiangzhe, a second year Ph.D. student at Purdue University, advised by Prof. [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/). I obtained my B.Eng. degree from Nanjing University.
+
 
 Email: xzx@purdue.edu
 
