@@ -10,7 +10,7 @@ Email: xzx@purdue.edu
 
 ## Publications
 
-**PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model**, Xiangzhe Xu\*, Zhou Xuan\*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'23).
+**PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model**, Xiangzhe Xu\*, Zhou Xuan\*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'23). [PDF](pem.pdf)
 
 **Extracting Protocol Format as State Machine via Controlled Static Loop Analysis**, Qingkai Shi, Xiangzhe Xu, Xiangyu Zhang. The USENIX Security Symposium (USENIX'23).
 
