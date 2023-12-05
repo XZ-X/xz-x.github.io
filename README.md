@@ -3,7 +3,9 @@
 <img src="IMG_4550.jpg" width="200"/>
 
 I'm Xiangzhe, a Ph.D. student at Purdue University, advised by Prof. [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/). I obtained my B.Eng. degree from Nanjing University.
-
+My research interest focuses on combining machine learning techniques with binary program analysis.
+Specifically, I am working on recovering high-level information (e.g., program behaviors, variable names, types) from lower-level programs (e.g., stripped binary programs).
+I use program analysis to construct better features from programs (e.g., [input/output values reflecting dynamic program behaviors](pem.pdf), [state machine reflecting input specifications](https://www.usenix.org/system/files/usenixsecurity23-shi-qingkai.pdf)); and enhance the performance of machine learning models with program analysis techniques (e.g., making binary program models more robust by [preventing models emphasizing on binary instructions that are not import for program semantics](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121), improving the performance of LLM on recovering variable names from binary programs by [formulating name recovery as a type-inference like task](https://arxiv.org/pdf/2306.02546.pdf)).
 
 Email: xzx@purdue.edu
 
@@ -12,9 +14,11 @@ Email: xzx@purdue.edu
 
 **PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model**, Xiangzhe Xu\*, Zhou Xuan\*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'23). [PDF](pem.pdf), [Full-length version](https://arxiv.org/pdf/2308.15449.pdf)
 
-**Extracting Protocol Format as State Machine via Controlled Static Loop Analysis**, Qingkai Shi, Xiangzhe Xu, Xiangyu Zhang. The USENIX Security Symposium (USENIX'23).
+**Extracting Protocol Format as State Machine via Controlled Static Loop Analysis**, Qingkai Shi, Xiangzhe Xu, Xiangyu Zhang. The USENIX Security Symposium (USENIX'23). [PDF](https://www.usenix.org/system/files/usenixsecurity23-shi-qingkai.pdf)
 
-**Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis**, Xiangzhe Xu, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23).
+**LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis**, Xiangzhe Xu, Zhuo Zhang, Shiwei Feng, Yapeng Ye, Zian Su, Nan Jiang, Siyuan Cheng, Lin Tan, Xiangyu Zhang. [PDF](https://arxiv.org/pdf/2306.02546.pdf)
+
+**Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis**, Xiangzhe Xu, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23). [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121)
 
 **Automatic Generation and Validation of Instruction Encoders and Decoders**, Xiangzhe Xu, Jinhua Wu, Yuting Wang*, Zhenguo Yin and Pengfei Li.
 The 33rd International Conference on Computer-Aided Verification (CAV'21). [PDF](https://link.springer.com/content/pdf/10.1007%2F978-3-030-81688-9_34.pdf)
