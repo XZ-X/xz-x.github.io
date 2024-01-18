@@ -16,7 +16,7 @@ Email: xzx@purdue.edu
 
 **Extracting Protocol Format as State Machine via Controlled Static Loop Analysis**, Qingkai Shi, Xiangzhe Xu, Xiangyu Zhang. The USENIX Security Symposium (USENIX'23). [PDF](https://www.usenix.org/system/files/usenixsecurity23-shi-qingkai.pdf)
 
-**LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis**, Xiangzhe Xu, Zhuo Zhang, Zian Su, Ziyang Huang, Shiwei Feng, Yapeng Ye, Nan Jiang, Danning Xie Siyuan Cheng, Lin Tan, Xiangyu Zhang. [PDF](https://arxiv.org/pdf/2306.02546.pdf)
+**LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis**, Xiangzhe Xu, Zhuo Zhang, Zian Su, Ziyang Huang, Shiwei Feng, Yapeng Ye, Nan Jiang, Danning Xie Siyuan Cheng, Lin Tan, Xiangyu Zhang. [PDF](lmpa-github.pdf)
 
 **Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis**, Xiangzhe Xu, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23). [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121)
 
