@@ -12,6 +12,10 @@ Email: xzx@purdue.edu
 
 ## Publications
 
+**ROCAS: Root Cause Analysis of Autonomous Driving Accidents via Cyber-Physical Co-mutation**, Shiwei Feng, Yapeng Ye, Qingkai Shi, Zhiyuan Cheng, Xiangzhe Xu, Siyuan Cheng, Hongjun Choi, Xiangyu Zhang. IEEE/ACM International Conference on Automated Software Engineering (ASE 2024). [PDF](https://arxiv.org/pdf/2409.07774)
+
+**Codeart: Better code models by attention regularization when symbols are lacking**, Zian Su, Xiangzhe Xu, Ziyang Huang, Zhuo Zhang, Yapeng Ye, Jianjun Huang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'24). [PDF](https://dl.acm.org/doi/pdf/10.1145/3643752)
+
 **PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model**, Xiangzhe Xu\*, Zhou Xuan\*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE'23). [PDF](pem.pdf), [Full-length version](https://arxiv.org/pdf/2308.15449.pdf)
 
 **Extracting Protocol Format as State Machine via Controlled Static Loop Analysis**, Qingkai Shi, Xiangzhe Xu, Xiangyu Zhang. The USENIX Security Symposium (USENIX'23). [PDF](https://www.usenix.org/system/files/usenixsecurity23-shi-qingkai.pdf)
