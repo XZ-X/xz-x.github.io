@@ -22,7 +22,7 @@ Email: xzx@purdue.edu
 
 ### Code Model Quality Assurance
 
-**SecAlign: Fortifying Code LLMs with Proactive Security Alignment**, Xiangzhe Xu, Zian Su, Jinyao Guo, Kaiyuan Zhang, Zhenting Wang, Xiangyu Zhang. [PDF](https://github.com/XZ-X/xz-x.github.io/blob/master/SecAlign.pdf)
+**SecAlign: Fortifying Code LLMs with Proactive Security Alignment**, Xiangzhe Xu*, Zian Su*, Jinyao Guo, Kaiyuan Zhang, Zhenting Wang, Xiangyu Zhang. [PDF](https://github.com/XZ-X/xz-x.github.io/blob/master/SecAlign.pdf)
 
 **Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis**, Xiangzhe Xu, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23). [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121)
 
