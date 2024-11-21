@@ -4,7 +4,7 @@
 
 I’m Xiangzhe. I’m a Ph.D. student at Purdue University advised by Prof. [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/).
 My research interest lies in the intersection of program analysis and machine learning models for code. 
-I explore code quality assurance with software engineering practices. For example, I measure and [mitigate biases in a code language model inspired by metamorphic testing](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121); I develop [a proactive code model security technique inspired by scenario-based testing](https://github.com/XZ-X/xz-x.github.io/blob/master/SecAlign.pdf).
+I explore code quality assurance with software engineering practices. For example, I measure and [mitigate biases in a code language model inspired by metamorphic testing](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121); I develop [a proactive code model security technique inspired by scenario-based testing](https://arxiv.org/pdf/2411.12882).
 Besides model quality assurance, I believe formulating program semantics is a key for better code models. My exploration ranges from lower-level semantics, such as formal semantics ([CompCertELF](https://dl.acm.org/doi/pdf/10.1145/3428265)), probabilistic execution semantics([PEM](https://arxiv.org/pdf/2308.15449.pdf)), to higher-level semantics that reflects developers’ abstraction ([GenNm](https://arxiv.org/abs/2306.02546),[ProRec](https://arxiv.org/abs/2405.19581v1)).
 
 <!--
@@ -22,7 +22,7 @@ Email: xzx@purdue.edu
 
 ### Code Model Quality Assurance
 
-**SecAlign: Fortifying Code LLMs with Proactive Security Alignment**, Xiangzhe Xu*, Zian Su*, Jinyao Guo, Kaiyuan Zhang, Zhenting Wang, Xiangyu Zhang. [PDF](https://github.com/XZ-X/xz-x.github.io/blob/master/SecAlign.pdf)
+**ProSec: Fortifying Code LLMs with Proactive Security Alignment**, Xiangzhe Xu*, Zian Su*, Jinyao Guo, Kaiyuan Zhang, Zhenting Wang, Xiangyu Zhang. [PDF](https://arxiv.org/pdf/2411.12882)
 
 **Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis**, Xiangzhe Xu, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23). [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3598121)
 
