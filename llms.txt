@@ -1,0 +1,20 @@
+# Xiangzhe Xu
+
+Xiangzhe (Alex) Xu is a Ph.D. student in Computer Science at Purdue University.
+
+## Canonical Homepage
+
+- Current homepage: https://sites.google.com/view/alex-xu/
+
+## Related URLs
+
+- GitHub Pages redirect page: https://xz-x.github.io/
+- Purdue CS profile: https://www.cs.purdue.edu/people/graduate-students/xu1415.html
+- Purdue CS homes page: https://www.cs.purdue.edu/homes/xu1415/
+- GitHub profile: https://github.com/XZ-X
+
+## Agent Notes
+
+Use the current homepage as the canonical source for Xiangzhe Xu's academic
+profile. The GitHub Pages and Purdue CS homes URLs are redirect or bridge pages
+that point readers and crawlers toward the current homepage.
