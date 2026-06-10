@@ -3,66 +3,622 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Xiangzhe Xu - Computer Science Ph.D. Student at Purdue University</title>
+    <title>Xiangzhe Xu - Purdue Computer Science</title>
     <meta
       name="description"
-      content="Xiangzhe (Alex) Xu is a Ph.D. student in Computer Science at Purdue University. This page points to his current homepage, research profile, and academic links.">
+      content="Xiangzhe (Alex) Xu is a Ph.D. student in Computer Science at Purdue University working on intelligence engineering, reliable agentic systems, code models, and software engineering.">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <meta http-equiv="refresh" content="0; url=https://sites.google.com/view/alex-xu/">
-    <link rel="canonical" href="https://sites.google.com/view/alex-xu/">
+    <link rel="canonical" href="https://xz-x.github.io/">
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Xiangzhe Xu">
     <meta property="og:description" content="Computer Science Ph.D. student at Purdue University.">
-    <meta property="og:url" content="https://sites.google.com/view/alex-xu/">
+    <meta property="og:url" content="https://xz-x.github.io/">
     <meta property="og:image" content="https://xz-x.github.io/IMG_4550.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ProfilePage",
-        "@id": "https://sites.google.com/view/alex-xu/#profile",
-        "url": "https://sites.google.com/view/alex-xu/",
+        "@id": "https://xz-x.github.io/#profile",
+        "url": "https://xz-x.github.io/",
         "name": "Xiangzhe Xu",
         "about": {
           "@type": "Person",
-          "@id": "https://sites.google.com/view/alex-xu/#xiangzhe-xu",
+          "@id": "https://xz-x.github.io/#xiangzhe-xu",
           "name": "Xiangzhe Xu",
           "alternateName": "Alex Xu",
+          "email": "mailto:xzx@purdue.edu",
           "jobTitle": "Ph.D. Student",
           "affiliation": {
             "@type": "CollegeOrUniversity",
             "name": "Purdue University",
             "url": "https://www.purdue.edu/"
           },
-          "url": "https://sites.google.com/view/alex-xu/",
+          "url": "https://xz-x.github.io/",
           "image": "https://xz-x.github.io/IMG_4550.jpg",
           "sameAs": [
+            "https://x.com/XiangzheX",
+            "https://www.linkedin.com/in/xiangzhe-xu-4a110915b/",
             "https://github.com/XZ-X",
-            "https://www.cs.purdue.edu/people/graduate-students/xu1415.html",
-            "https://www.cs.purdue.edu/homes/xu1415/",
-            "https://xz-x.github.io/"
+            "https://www.cs.purdue.edu/homes/xu1415/"
           ]
         }
       }
     </script>
+    <style>
+      :root {
+        --ink: #202124;
+        --muted: #5f6368;
+        --line: #dadce0;
+        --soft: #f8fafd;
+        --link: #1a73e8;
+        --accent: #0b57d0;
+        --max: 1060px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.62;
+        background: #fff;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(12px);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 16px 24px;
+      }
+
+      .brand {
+        color: var(--ink);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: flex-end;
+        font-size: 14px;
+      }
+
+      .nav-links a {
+        color: var(--muted);
+      }
+
+      main {
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 54px 24px 72px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 250px;
+        gap: 48px;
+        align-items: start;
+        padding-bottom: 54px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--accent);
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.22;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        margin: 10px 0 0;
+        color: var(--muted);
+        font-size: 22px;
+      }
+
+      .intro {
+        margin-top: 28px;
+        font-size: 17px;
+      }
+
+      .profile {
+        margin: 0;
+      }
+
+      .profile img {
+        display: block;
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 10px 30px rgba(60, 64, 67, 0.16);
+      }
+
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .contact a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        padding: 6px 12px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        color: var(--ink);
+        font-size: 14px;
+        font-weight: 600;
+        background: #fff;
+      }
+
+      .contact a:hover,
+      .contact a:focus {
+        border-color: var(--link);
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      section {
+        padding: 44px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      section:last-child {
+        border-bottom: 0;
+      }
+
+      h2 {
+        margin: 0 0 20px;
+        font-size: 28px;
+      }
+
+      h3 {
+        margin: 0 0 4px;
+        font-size: 18px;
+      }
+
+      .news-list,
+      .pub-list,
+      .experience-list,
+      .plain-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .news-list li,
+      .pub-list li,
+      .experience-list li,
+      .plain-list li {
+        margin: 0;
+        padding: 16px 0;
+        border-top: 1px solid #edf0f2;
+      }
+
+      .news-list li:first-child,
+      .pub-list li:first-child,
+      .experience-list li:first-child,
+      .plain-list li:first-child {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      .date,
+      .venue,
+      .award {
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .authors {
+        margin: 4px 0 0;
+        color: var(--muted);
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .two-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 34px;
+      }
+
+      .talks li,
+      .service li {
+        padding: 7px 0;
+      }
+
+      footer {
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 24px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 800px) {
+        .site-header {
+          position: static;
+        }
+
+        .nav {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .nav-links {
+          justify-content: flex-start;
+        }
+
+        main {
+          padding-top: 34px;
+        }
+
+        .hero,
+        .two-column {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          gap: 28px;
+        }
+
+        .profile {
+          max-width: 260px;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+      }
+    </style>
   </head>
   <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#">Xiangzhe Xu</a>
+        <div class="nav-links">
+          <a href="#news">News</a>
+          <a href="#publications">Selected Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#awards">Awards</a>
+          <a href="#talks">Talks</a>
+          <a href="#service">Services</a>
+        </div>
+      </nav>
+    </header>
+
     <main>
-      <h1>Xiangzhe Xu</h1>
-      <p>
-        Xiangzhe (Alex) Xu is a Ph.D. student in Computer Science at Purdue
-        University.
-      </p>
-      <p>
-        The current homepage is
-        <a href="https://sites.google.com/view/alex-xu/">https://sites.google.com/view/alex-xu/</a>.
-      </p>
-      <ul>
-        <li><a href="https://sites.google.com/view/alex-xu/">Current homepage</a></li>
-        <li><a href="https://www.cs.purdue.edu/people/graduate-students/xu1415.html">Purdue CS profile</a></li>
-        <li><a href="https://www.cs.purdue.edu/homes/xu1415/">Purdue CS homes page</a></li>
-        <li><a href="https://github.com/XZ-X">GitHub profile</a></li>
-      </ul>
+      <section class="hero" id="profile">
+        <div>
+          <p class="eyebrow">Computer Science, Purdue University</p>
+          <h1>Xiangzhe (Alex) Xu</h1>
+          <p class="subtitle">Ph.D. student advised by Prof. Xiangyu Zhang</p>
+          <div class="intro">
+            <p>
+              I am a Ph.D. student at Purdue University advised by Prof.
+              <a href="https://www.cs.purdue.edu/homes/xyzhang/">Xiangyu Zhang</a>.
+              Before that, I obtained my B.Eng. from Nanjing University.
+            </p>
+            <p>
+              My research develops systematic principles for harnessing
+              <a href="https://arxiv.org/abs/2306.02546">GenNm</a>,
+              <a href="https://arxiv.org/abs/2409.07774">ROCAS</a>,
+              <a href="https://arxiv.org/pdf/2501.18160">RepoAudit</a>,
+              evaluating <a href="https://arxiv.org/abs/2506.07524">TAI3</a> and
+              <a href="https://arxiv.org/abs/2508.03936">ASTRA</a>, and aligning
+              <a href="https://arxiv.org/pdf/2411.12882">ProSec</a>,
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3643752">CodeArt</a>,
+              <a href="https://arxiv.org/pdf/2405.19581v2">ProRec</a>, and
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3597926.3598121">DiEmph</a>
+              agentic systems so they can become dependable infrastructure for everyday life.
+            </p>
+            <p>
+              I call this direction <strong>intelligence engineering</strong>: extending the
+              effectiveness of software engineering from building reliable software on top of
+              hardware to building reliable agentic systems on top of AI models.
+            </p>
+            <p>
+              I am always happy to discuss ideas and collaborate with researchers, including
+              undergraduate students and high school students, on software engineering,
+              agentic systems, and the mechanistic explainability of AI agents.
+            </p>
+          </div>
+          <div class="contact" aria-label="Contact and profiles">
+            <a href="mailto:xzx@purdue.edu">xzx@purdue.edu</a>
+            <a href="https://x.com/XiangzheX">X</a>
+            <a href="https://www.linkedin.com/in/xiangzhe-xu-4a110915b/">LinkedIn</a>
+            <a href="https://github.com/XZ-X">GitHub</a>
+          </div>
+        </div>
+        <figure class="profile">
+          <img src="IMG_4550.jpg" alt="Xiangzhe Xu">
+        </figure>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="date">04/2026</span>
+            Our paper on benchmarking alignment of coding agents is accepted to
+            <a href="https://www.caisconf.org">CAIS'26</a>.
+          </li>
+          <li>
+            <span class="date">02/2026</span>
+            Our team PurCL is selected as one of the 10 teams in
+            <a href="https://www.amazon.science/nova-ai-challenge/amazon-nova-ai-challenge-returns-with-nova-forge-access-for-competing-teams">Amazon Nova AI Challenge year 2</a>.
+            The challenge focuses on evaluating user-centric coding agents: how coding agents
+            effectively interact with a user and help users audit AI-generated code.
+          </li>
+          <li>
+            <span class="date">07/2025</span>
+            Our team PurCL won 1st place in the
+            <a href="https://www.amazon.science/nova-ai-challenge/pushing-the-boundaries-of-secure-ai-winners-of-the-amazon-nova-ai-challenge">Amazon Nova AI Challenge</a>.
+            The challenge focuses on security alignment of code language models. Our team won
+            1st place in a challenge involving 10 top universities around the world, selected
+            from more than 90 applicants. Code:
+            <a href="https://github.com/PurCL/ASTRA">github.com/PurCL/ASTRA</a>.
+          </li>
+          <li>
+            <span class="date">06/2025 - 09/2025</span>
+            I am interning at Microsoft Research in Redmond this summer. During the internship,
+            I studied the architecture of tool designs in coding agents. Our research formulates
+            how tool interfaces affect the robustness, exploration, and efficiency of coding agents.
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Selected Publications</h2>
+        <ol class="pub-list">
+          <li>
+            <h3>When Harmful Intent Dissolves into Technical Detail: How Safe Are Coding Agents Against Cyber Misuse?</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>, Shiwei Feng, Guangyu Shen, Xiangyu Zhang. <span class="venue">CAIS'2026.</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/10.1145/3786335.3813176">PDF</a><a href="https://github.com/OpenHands/benchmarks/pull/361">Included in OpenHands Benchmarks</a></p>
+          </li>
+          <li>
+            <h3>From Poisoned to Aware: Fostering Backdoor Self-Awareness in LLMs</h3>
+            <p class="authors">Guangyu Shen, Siyuan Cheng, <strong>Xiangzhe Xu</strong>, Yuan Zhou, Hanxi Guo, Zhuo Zhang, Xiangyu Zhang. <span class="venue">ICML'2026.</span></p>
+            <p class="links"><a href="https://www.cs.purdue.edu/homes/shen447/files/paper/ws_self_awareness.pdf">PDF</a><span class="award">ICML Spotlight Paper (Top 2.2%)</span></p>
+          </li>
+          <li>
+            <h3>ASTRA: Autonomous Spatial-Temporal Red-teaming for AI Software Assistants</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>*, Guangyu Shen*, Zian Su, Siyuan Cheng, Hanxi Guo, Lu Yan, Xuan Chen, Jiasheng Jiang, Xiaolong Jin, Chengpeng Wang, Zhuo Zhang, Xiangyu Zhang. <span class="venue">Technical Report.</span></p>
+            <p class="links"><a href="https://arxiv.org/abs/2508.03936">Technical Report</a><span class="award">1st Place Solution in Amazon Nova AI Challenge</span></p>
+          </li>
+          <li>
+            <h3>TAI3: Testing Agent Integrity in Interpreting User Intent</h3>
+            <p class="authors">Shiwei Feng*, <strong>Xiangzhe Xu</strong>*, Xuan Chen, Kaiyuan Zhang, Syed Yusuf Ahmed, Zian Su, Mingwei Zheng, Xiangyu Zhang. <span class="venue">NeurIPS'2025.</span></p>
+            <p class="links"><a href="https://arxiv.org/abs/2506.07524">PDF</a><span class="award">3,000 USD Bug Bounty by Finding Bugs in Alexa+</span></p>
+          </li>
+          <li>
+            <h3>ProSec: Fortifying Code LLMs with Proactive Security Alignment</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>*, Zian Su*, Jinyao Guo, Kaiyuan Zhang, Zhenting Wang, Xiangyu Zhang. <span class="venue">ICML'2025.</span></p>
+            <p class="links"><a href="https://arxiv.org/pdf/2411.12882">PDF</a></p>
+          </li>
+          <li>
+            <h3>GenNm: Symbol Preference Aware Generative Models for Recovering Variable Names from Stripped Binary</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>, Zhuo Zhang, Zian Su, Ziyang Huang, Shiwei Feng, Yapeng Ye, Nan Jiang, Danning Xie, Siyuan Cheng, Lin Tan, Xiangyu Zhang. <span class="venue">NDSS'2025.</span></p>
+            <p class="links"><a href="https://arxiv.org/pdf/2306.02546">PDF</a></p>
+          </li>
+          <li>
+            <h3>RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing</h3>
+            <p class="authors">Jinyao Guo, Chengpeng Wang, <strong>Xiangzhe Xu</strong>, Zian Su, Xiangyu Zhang. <span class="venue">ICML'2025.</span></p>
+            <p class="links"><a href="https://arxiv.org/pdf/2501.18160">PDF</a></p>
+          </li>
+          <li>
+            <h3>CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking</h3>
+            <p class="authors">Zian Su, <strong>Xiangzhe Xu</strong>, Ziyang Huang, Zhuo Zhang, Yapeng Ye, Jianjun Huang, Xiangyu Zhang. <span class="venue">FSE'2024.</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3643752">PDF</a></p>
+          </li>
+          <li>
+            <h3>ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries</h3>
+            <p class="authors">Danning Xie, Zhuo Zhang, Nan Jiang, <strong>Xiangzhe Xu</strong>, Lin Tan, and Xiangyu Zhang. <span class="venue">CCS'2024.</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3658644.3670340">PDF</a><span class="award">ACM SIGSAC Distinguished Paper Award</span></p>
+          </li>
+          <li>
+            <h3>LLMDFA: Analyzing Dataflow in Code with Large Language Models</h3>
+            <p class="authors">Chengpeng Wang, Wuqi Zhang, Zian Su, <strong>Xiangzhe Xu</strong>, Xiaoheng Xie, Xiangyu Zhang. <span class="venue">NeurIPS'2024.</span></p>
+            <p class="links"><a href="https://chengpeng-wang.github.io/publications/LLMDFA_NeurIPS2024.pdf">PDF</a></p>
+          </li>
+          <li>
+            <h3>ProRec: Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases</h3>
+            <p class="authors">Zian Su, <strong>Xiangzhe Xu</strong>, Ziyang Huang, Kaiyuan Zhang, Xiangyu Zhang. <span class="venue">NeurIPS'2024.</span></p>
+            <p class="links"><a href="https://arxiv.org/pdf/2405.19581v2">PDF</a></p>
+          </li>
+          <li>
+            <h3>ROCAS: Root Cause Analysis of Autonomous Driving Accidents via Cyber-Physical Co-mutation</h3>
+            <p class="authors">Shiwei Feng, Yapeng Ye, Qingkai Shi, Zhiyuan Cheng, <strong>Xiangzhe Xu</strong>, Siyuan Cheng, Hongjun Choi, Xiangyu Zhang. <span class="venue">ASE'2024.</span></p>
+            <p class="links"><a href="https://arxiv.org/pdf/2409.07774">PDF</a><span class="award">ACM SIGSOFT Distinguished Paper Award</span></p>
+          </li>
+          <li>
+            <h3>ParDiff: Practical Static Differential Analysis of Network Protocol Parsers</h3>
+            <p class="authors">Mingwei Zheng, Qingkai Shi, Xuwei Liu, <strong>Xiangzhe Xu</strong>, Le Yu, Congyu Liu, Guannan Wei, Xiangyu Zhang. <span class="venue">OOPSLA'2024.</span></p>
+            <p class="links"><a href="https://zmw12306.github.io/files/oopsla.pdf">PDF</a><span class="award">ACM SIGPLAN Distinguished Paper Award</span></p>
+          </li>
+          <li>
+            <h3>DiEmph: Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>, Shiwei Feng, Yapeng Ye, Guangyu Shen, Zian Su, Siyuan Cheng, Guanhong Tao, Qingkai Shi, Zhuo Zhang, and Xiangyu Zhang. <span class="venue">ISSTA'2023.</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3597926.3598121">PDF</a></p>
+          </li>
+          <li>
+            <h3>PEM: Representing Binary Program Semantics for Similarity Analysis via A Probabilistic Execution Model</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>*, Zhou Xuan*, Shiwei Feng, Siyuan Cheng, Yapeng Ye, Qingkai Shi, Guanhong Tao, Le Yu, Zhuo Zhang, Xiangyu Zhang. <span class="venue">FSE'2023.</span></p>
+            <p class="links"><a href="pem.pdf">PDF</a></p>
+          </li>
+          <li>
+            <h3>StateLifter: Extracting Protocol Format as State Machine via Controlled Static Loop Analysis</h3>
+            <p class="authors">Qingkai Shi, <strong>Xiangzhe Xu</strong>, Xiangyu Zhang. <span class="venue">USENIX Security'2023.</span></p>
+            <p class="links"><a href="https://www.usenix.org/system/files/usenixsecurity23-shi-qingkai.pdf">PDF</a></p>
+          </li>
+          <li>
+            <h3>ARCTURUS: Full Coverage Binary Similarity Analysis with Reachability-guided Emulation</h3>
+            <p class="authors">Anshunkang Zhou, Yikun Hu, <strong>Xiangzhe Xu</strong>, Charles Zhang. <span class="venue">TOSEM'2023.</span></p>
+            <p class="links"><a href="https://yikunh.github.io/publication/zhou-2024-arcturus/zhou-2024-arcturus.pdf">PDF</a></p>
+          </li>
+          <li>
+            <h3>CSLED: Automatic Generation and Validation of Instruction Encoders and Decoders</h3>
+            <p class="authors"><strong>Xiangzhe Xu</strong>, Jinhua Wu, Yuting Wang*, Zhenguo Yin and Pengfei Li. <span class="venue">CAV'2021.</span></p>
+            <p class="links"><a href="https://link.springer.com/content/pdf/10.1007%2F978-3-030-81688-9_34.pdf">PDF</a></p>
+          </li>
+          <li>
+            <h3>CompCertELF: Verified Separate Compilation of C Programs into ELF Object Files</h3>
+            <p class="authors">Yuting Wang, <strong>Xiangzhe Xu</strong>, Pierre Wilke, Zhong Shao. <span class="venue">OOPSLA'2020.</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3428265">PDF</a></p>
+          </li>
+          <li>
+            <h3>CPC: Automatically Classifying and Propagating Natural Language Comments via Program Analysis</h3>
+            <p class="authors">Juan Zhai, <strong>Xiangzhe Xu</strong>, Yu Shi, Guanhong Tao, Minxue Pan, Shiqing Ma, Lei Xu, Weifeng Zhang, Lin Tan, Xiangyu Zhang. <span class="venue">ICSE'2020.</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3377811.3380427">PDF</a></p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul class="experience-list">
+          <li><span class="date">Jun. 2025 - Sep. 2025</span> Research intern at Microsoft Research. Advisors: <a href="https://qianhuiwu.github.io/">Qianhui Wu</a>, <a href="https://scholar.google.com/citations?user=0QH0nTcAAAAJ&amp;hl=en&amp;oi=ao">Hamidreza Saghir</a>, <a href="https://www.microsoft.com/en-us/research/people/macote/">Marc-Alexandre Cote</a>, Tong Wang, <a href="https://sites.google.com/view/kiranlakkaraju/home?authuser=1">Kiran Lakkaraju</a>, <a href="https://www.linkedin.com/in/albada/">Michael Albada</a>. Microsoft Research.</li>
+          <li><span class="date">Apr. 2021 - Aug. 2021</span> Research assistant on binary program analysis. Advisor: <a href="https://cse.hkust.edu.hk/~charlesz/">Charles Zhang</a>. HKUST.</li>
+          <li><span class="date">Sep. 2020 - Feb. 2021</span> Research assistant on program verification. Advisor: <a href="https://jhc.sjtu.edu.cn/~yutingwang/">Yuting Wang</a>. SJTU.</li>
+          <li><span class="date">May 2020 - Aug. 2020</span> Intern on automatic differentiation. Advisor: <a href="https://www.cs.ucdavis.edu/~hchen/">Hao Chen</a>. ByteDance AI Lab.</li>
+          <li><span class="date">Dec. 2019 - Mar. 2020</span> Research assistant on program analysis. Advisor: <a href="https://www.cs.purdue.edu/homes/xyzhang/">Xiangyu Zhang</a>. Purdue University.</li>
+          <li><span class="date">Jul. 2019 - Oct. 2019</span> Research intern on program verification. Advisor: <a href="https://www.cs.yale.edu/homes/shao-zhong/">Zhong Shao</a>. Yale University.</li>
+          <li><span class="date">Jul. 2018 - Jun. 2019</span> Research intern on program analysis. Advisors: <a href="https://minxuepan.github.io/">Minxue Pan</a>, <a href="https://people.cs.umass.edu/~juanzhai/">Juan Zhai</a>. Nanjing University.</li>
+        </ul>
+      </section>
+
+      <section id="awards">
+        <h2>Awards</h2>
+        <ul class="plain-list">
+          <li>Amazon Nova AI Challenge Research Grant ($250,000 + $1M computation resource), 2026</li>
+          <li>Bug Bounty of Alexa+ ($3,000), 2025</li>
+          <li>1st Place in Amazon Nova AI Challenge ($250,000), 2025</li>
+          <li>Amazon Trusted AI Challenge Research Grant ($250,000 + $1M computation resource), 2024</li>
+          <li>1st Place in AutoDriving CTF at DEFCON30, from 110 global teams, 2022</li>
+        </ul>
+      </section>
+
+      <section id="talks">
+        <h2>Invited Talks &amp; Lectures</h2>
+        <ul class="talks">
+          <li>Scaling auditing expertise via neural-symbolic multi-agent system, Feb 2026, Amazon</li>
+          <li>Intelligence engineering in the era of vibe coding, Oct 2025, Purdue University</li>
+          <li>Building trustworthy AI coding systems through agentic red-teaming, July 2025, Amazon; May 2025, <a href="https://trustnlpworkshop.github.io">TrustNLP</a></li>
+          <li>Scaling security expertise with AI-driven systems, Apr 2025, RIT; Mar 2025, Microsoft</li>
+          <li>Harnessing domain expertise to elevate post-training data quality, Mar 2025, Meta</li>
+          <li>Understanding programs when symbols are lacking, Nov 2024, UMass Amherst</li>
+          <li>An agentic red-teaming framework, Nov 2024, Amazon</li>
+          <li>Inference time scaling for code reasoning task, Oct 2024, Purdue University</li>
+          <li>Incorporating program analysis insights to code models, Apr 2024, UMass Amherst</li>
+          <li>Introduction to code language models, Nov 2023, Purdue University</li>
+        </ul>
+      </section>
+
+      <section id="service">
+        <h2>Services</h2>
+        <div class="two-column service">
+          <div>
+            <h3>Reviewer</h3>
+            <ul>
+              <li>NeurIPS 2026</li>
+              <li>COLM 2026</li>
+              <li>State Of the Art in Program Analysis (SOAP) 2026</li>
+              <li>ICLR 2026</li>
+              <li>NeurIPS 2025, DL4C and ResponsibleFM @ NeurIPS 2025</li>
+              <li>Reasoning and Planning for LLMs @ ICLR 2025</li>
+              <li>LLM4Code @ ICSE 2025</li>
+              <li>ARR 2025 Feb, 2025 May</li>
+              <li>IEEE Transactions on Dependable and Secure Computing (TDSC) 2025</li>
+              <li>EXPlainable and REliable Software Systems (EXPRESS) 2025</li>
+              <li>ACM Transactions on Software Engineering and Methodology (TOSEM)</li>
+              <li>IEEE Internet of Things Journal (IoTJ)</li>
+              <li>The Computer Journal (COMPJ)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Sub-reviewer and Artifact Evaluation</h3>
+            <ul>
+              <li>FSE, 2020</li>
+              <li>ASE, 2023, 2024</li>
+              <li>ICSE-CAIN, 2022, 2023, 2024</li>
+              <li>CCS, 2022, 2023, 2024</li>
+              <li>ICSE, 2022, 2023</li>
+              <li>ISSTA, 2020, 2024</li>
+              <li>PLDI Artifact Evaluation Committee, 2024</li>
+              <li>ISSTA Artifact Evaluation Committee, 2024</li>
+              <li>CGO Artifact Evaluation Committee, 2024, 2025</li>
+              <li>CCS Artifact Evaluation Committee, 2023</li>
+              <li>SAS Artifact Evaluation Committee, 2025</li>
+              <li>OOPSLA Artifact Evaluation Committee, 2025</li>
+            </ul>
+          </div>
+        </div>
+        <h3>Other Services</h3>
+        <ul class="talks">
+          <li>The 42nd International Conference on Software Engineering (ICSE'20) Track Scheduling co-Chair</li>
+          <li>Faculty Search Representative in Purdue Computer Science Graduate Student Association (2023-2024)</li>
+        </ul>
+      </section>
     </main>
+
+    <footer>
+      <p>Contact: <a href="mailto:xzx@purdue.edu">xzx@purdue.edu</a></p>
+    </footer>
   </body>
 </html>
