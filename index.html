@@ -283,14 +283,38 @@
         font-weight: 700;
       }
 
+      .red {
+        color: var(--red);
+        font-weight: 700;
+      }
+
+      .emoji {
+        display: inline-block;
+        margin-right: 2px;
+      }
+
       .side-nav {
         margin-top: 30px;
         font-size: 18px;
-        line-height: 1.1;
+        line-height: 1.15;
       }
 
       .side-nav a {
         display: block;
+        width: fit-content;
+        margin: 4px 0;
+        padding: 2px 0;
+        color: #1f2c38;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .side-nav a:hover,
+      .side-nav a:focus {
+        color: #000;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
       }
 
       .social-links {
@@ -312,6 +336,13 @@
         font-weight: 700;
         background: #000;
         text-decoration: none;
+      }
+
+      .social-links svg {
+        display: block;
+        width: 20px;
+        height: 20px;
+        fill: #fff;
       }
 
       .two-column {
@@ -394,9 +425,21 @@
             <a href="#service">Services</a>
           </nav>
           <div class="social-links" aria-label="Profiles">
-            <a href="https://x.com/XiangzheX" aria-label="X">X</a>
-            <a href="https://www.linkedin.com/in/xiangzhe-xu-4a110915b/" aria-label="LinkedIn">in</a>
-            <a href="https://github.com/XZ-X" aria-label="GitHub">GH</a>
+            <a href="https://x.com/XiangzheX" aria-label="X">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M23.4 5.8c-.8.4-1.7.6-2.6.7 1-.6 1.7-1.5 2-2.6-.9.5-1.9.9-3 1.1A4.5 4.5 0 0 0 16.5 3a4.6 4.6 0 0 0-4.6 4.6c0 .4 0 .7.1 1C8.2 8.4 4.8 6.6 2.5 3.8c-.4.7-.6 1.4-.6 2.3 0 1.6.8 3 2.1 3.8-.8 0-1.5-.2-2.1-.6v.1c0 2.2 1.6 4.1 3.7 4.5-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.8 2.3 3.1 4.3 3.2A9.1 9.1 0 0 1 1 19.1a12.9 12.9 0 0 0 7 2.1c8.4 0 13-7 13-13v-.6c.9-.6 1.7-1.4 2.4-2.3Z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/xiangzhe-xu-4a110915b/" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5.3 8.8h3.5v11.3H5.3V8.8Zm1.8-5.6a2 2 0 1 1 0 4.1 2 2 0 0 1 0-4.1Zm4 5.6h3.3v1.5h.1c.5-.9 1.6-1.8 3.3-1.8 3.5 0 4.2 2.3 4.2 5.3v6.3h-3.5v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7h-3.5V8.8Z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/XZ-X" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 2.9.9.1-.7.4-1.1.7-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1.1-2.8-.1-.3-.5-1.3.1-2.8 0 0 .9-.3 2.9 1.1.8-.2 1.7-.3 2.6-.3.9 0 1.8.1 2.6.3 2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.5.1 2.8.7.8 1.1 1.7 1.1 2.8 0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2.2Z"/>
+              </svg>
+            </a>
           </div>
         </aside>
         <div class="intro">
@@ -424,6 +467,7 @@
               hardware to building reliable agentic systems on top of AI models.
             </p>
             <p class="highlight-note">
+              <span class="emoji" aria-hidden="true">📧</span>
               I am always happy to discuss ideas and collaborate with researchers, including
               undergraduate students and high school students, on software engineering,
               agentic systems, and the mechanistic explainability of AI agents.
@@ -448,7 +492,8 @@
           </li>
           <li>
             <span class="date">07/2025</span>
-            Our team PurCL won 1st place in the
+            <span class="emoji" aria-hidden="true">🏆</span>
+            <span class="red">Our team PurCL won 1st Place</span> in the
             <a href="https://www.amazon.science/nova-ai-challenge/pushing-the-boundaries-of-secure-ai-winners-of-the-amazon-nova-ai-challenge">Amazon Nova AI Challenge</a>.
             The challenge focuses on security alignment of code language models. Our team won
             1st place in a challenge involving 10 top universities around the world, selected
@@ -470,22 +515,22 @@
           <li>
             <h3>When Harmful Intent Dissolves into Technical Detail: How Safe Are Coding Agents Against Cyber Misuse?</h3>
             <p class="authors"><strong>Xiangzhe Xu</strong>, Shiwei Feng, Guangyu Shen, Xiangyu Zhang. <span class="venue">CAIS'2026.</span></p>
-            <p class="links"><a href="https://dl.acm.org/doi/10.1145/3786335.3813176">PDF</a><a href="https://github.com/OpenHands/benchmarks/pull/361">Included in OpenHands Benchmarks</a></p>
+            <p class="links"><a href="https://dl.acm.org/doi/10.1145/3786335.3813176">PDF</a><a class="red" href="https://github.com/OpenHands/benchmarks/pull/361"><span class="emoji" aria-hidden="true">👐</span>Included in OpenHands Benchmarks</a></p>
           </li>
           <li>
             <h3>From Poisoned to Aware: Fostering Backdoor Self-Awareness in LLMs</h3>
             <p class="authors">Guangyu Shen, Siyuan Cheng, <strong>Xiangzhe Xu</strong>, Yuan Zhou, Hanxi Guo, Zhuo Zhang, Xiangyu Zhang. <span class="venue">ICML'2026.</span></p>
-            <p class="links"><a href="https://www.cs.purdue.edu/homes/shen447/files/paper/ws_self_awareness.pdf">PDF</a><span class="award">ICML Spotlight Paper (Top 2.2%)</span></p>
+            <p class="links"><a href="https://www.cs.purdue.edu/homes/shen447/files/paper/ws_self_awareness.pdf">PDF</a><span class="award"><span class="emoji" aria-hidden="true">🎖</span>ICML Spotlight Paper (Top 2.2%)</span></p>
           </li>
           <li>
             <h3>ASTRA: Autonomous Spatial-Temporal Red-teaming for AI Software Assistants</h3>
             <p class="authors"><strong>Xiangzhe Xu</strong>*, Guangyu Shen*, Zian Su, Siyuan Cheng, Hanxi Guo, Lu Yan, Xuan Chen, Jiasheng Jiang, Xiaolong Jin, Chengpeng Wang, Zhuo Zhang, Xiangyu Zhang. <span class="venue">Technical Report.</span></p>
-            <p class="links"><a href="https://arxiv.org/abs/2508.03936">Technical Report</a><span class="award">1st Place Solution in Amazon Nova AI Challenge</span></p>
+            <p class="links"><a href="https://arxiv.org/abs/2508.03936">Technical Report</a><span class="award"><span class="emoji" aria-hidden="true">🎖</span>1st Place Solution in Amazon Nova AI Challenge</span></p>
           </li>
           <li>
             <h3>TAI3: Testing Agent Integrity in Interpreting User Intent</h3>
             <p class="authors">Shiwei Feng*, <strong>Xiangzhe Xu</strong>*, Xuan Chen, Kaiyuan Zhang, Syed Yusuf Ahmed, Zian Su, Mingwei Zheng, Xiangyu Zhang. <span class="venue">NeurIPS'2025.</span></p>
-            <p class="links"><a href="https://arxiv.org/abs/2506.07524">PDF</a><span class="award">3,000 USD Bug Bounty by Finding Bugs in Alexa+</span></p>
+            <p class="links"><a href="https://arxiv.org/abs/2506.07524">PDF</a><span class="award"><span class="emoji" aria-hidden="true">🎖</span>3,000 USD Bug Bounty by Finding Bugs in Alexa+</span></p>
           </li>
           <li>
             <h3>ProSec: Fortifying Code LLMs with Proactive Security Alignment</h3>
@@ -510,7 +555,7 @@
           <li>
             <h3>ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries</h3>
             <p class="authors">Danning Xie, Zhuo Zhang, Nan Jiang, <strong>Xiangzhe Xu</strong>, Lin Tan, and Xiangyu Zhang. <span class="venue">CCS'2024.</span></p>
-            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3658644.3670340">PDF</a><span class="award">ACM SIGSAC Distinguished Paper Award</span></p>
+            <p class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3658644.3670340">PDF</a><span class="award"><span class="emoji" aria-hidden="true">🎖</span>ACM SIGSAC Distinguished Paper Award</span></p>
           </li>
           <li>
             <h3>LLMDFA: Analyzing Dataflow in Code with Large Language Models</h3>
@@ -525,12 +570,12 @@
           <li>
             <h3>ROCAS: Root Cause Analysis of Autonomous Driving Accidents via Cyber-Physical Co-mutation</h3>
             <p class="authors">Shiwei Feng, Yapeng Ye, Qingkai Shi, Zhiyuan Cheng, <strong>Xiangzhe Xu</strong>, Siyuan Cheng, Hongjun Choi, Xiangyu Zhang. <span class="venue">ASE'2024.</span></p>
-            <p class="links"><a href="https://arxiv.org/pdf/2409.07774">PDF</a><span class="award">ACM SIGSOFT Distinguished Paper Award</span></p>
+            <p class="links"><a href="https://arxiv.org/pdf/2409.07774">PDF</a><span class="award"><span class="emoji" aria-hidden="true">🎖</span>ACM SIGSOFT Distinguished Paper Award</span></p>
           </li>
           <li>
             <h3>ParDiff: Practical Static Differential Analysis of Network Protocol Parsers</h3>
             <p class="authors">Mingwei Zheng, Qingkai Shi, Xuwei Liu, <strong>Xiangzhe Xu</strong>, Le Yu, Congyu Liu, Guannan Wei, Xiangyu Zhang. <span class="venue">OOPSLA'2024.</span></p>
-            <p class="links"><a href="https://zmw12306.github.io/files/oopsla.pdf">PDF</a><span class="award">ACM SIGPLAN Distinguished Paper Award</span></p>
+            <p class="links"><a href="https://zmw12306.github.io/files/oopsla.pdf">PDF</a><span class="award"><span class="emoji" aria-hidden="true">🎖</span>ACM SIGPLAN Distinguished Paper Award</span></p>
           </li>
           <li>
             <h3>DiEmph: Improving Binary Code Similarity Transformer Models by Semantics-Driven Instruction Deemphasis</h3>
