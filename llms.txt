@@ -7,6 +7,44 @@ software engineering.
 ## Canonical Homepage
 
 - Current homepage: https://xz-x.github.io/
+- Preferred canonical URL: https://xz-x.github.io/
+- Contact: xzx@purdue.edu
+
+## Profile Summary
+
+Xiangzhe (Alex) Xu is a Computer Science Ph.D. student at Purdue University
+advised by Prof. Xiangyu Zhang. His research develops systematic principles for
+building reliable agentic systems on top of AI models. He calls this direction
+intelligence engineering.
+
+Primary research areas:
+
+- intelligence engineering
+- agentic systems and coding agents
+- software engineering for AI
+- code language models
+- AI security and red-teaming
+- program analysis and binary analysis
+- mechanistic explainability of AI agents
+
+## Main Page Sections
+
+- News: recent paper acceptances, Amazon Nova AI Challenge updates, and Microsoft Research internship notes.
+- Selected Publications: selected papers with venue labels and direct PDF/report links.
+- Experience: research and internship history.
+- Awards: Amazon Nova AI Challenge, Alexa+ bug bounty, Amazon Trusted AI Challenge, and DEFCON AutoDriving CTF.
+- Invited Talks & Lectures: recent talks at Amazon, Purdue, Microsoft, Meta, RIT, UMass Amherst, and TrustNLP.
+- Services: reviewer, sub-reviewer, artifact evaluation, and other academic service.
+
+## Selected Publications
+
+- When Harmful Intent Dissolves into Technical Detail: How Safe Are Coding Agents Against Cyber Misuse? CAIS 2026.
+- ASTRA: Autonomous Spatial-Temporal Red-teaming for AI Software Assistants.
+- TAI3: Testing Agent Integrity in Interpreting User Intent. NeurIPS 2025.
+- ProSec: Fortifying Code LLMs with Proactive Security Alignment. ICML 2025.
+- GenNm: Symbol Preference Aware Generative Models for Recovering Variable Names from Stripped Binary. NDSS 2025.
+- RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing. ICML 2025.
+- CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking. FSE 2024.
 
 ## Related URLs
 
