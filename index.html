@@ -47,13 +47,12 @@
     </script>
     <style>
       :root {
-        --ink: #202124;
-        --muted: #5f6368;
-        --line: #dadce0;
-        --soft: #f8fafd;
-        --link: #1a73e8;
-        --accent: #0b57d0;
-        --max: 1060px;
+        --ink: #111;
+        --muted: #5e6771;
+        --blue-bg: #eef6ff;
+        --deep-blue: #163f6b;
+        --red: #a51616;
+        --max: 1180px;
       }
 
       * {
@@ -67,53 +66,41 @@
       body {
         margin: 0;
         color: var(--ink);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        line-height: 1.62;
-        background: #fff;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 18px;
+        line-height: 1.35;
+        background: var(--blue-bg);
       }
 
       a {
-        color: var(--link);
-        text-decoration: none;
+        color: inherit;
+        text-decoration: underline;
       }
 
       a:hover,
       a:focus {
-        text-decoration: underline;
+        color: #000;
       }
 
       .site-header {
-        position: sticky;
-        top: 0;
-        z-index: 10;
-        border-bottom: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.94);
-        backdrop-filter: blur(12px);
+        background: var(--blue-bg);
       }
 
       .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 24px;
-        max-width: var(--max);
-        margin: 0 auto;
-        padding: 16px 24px;
+        max-width: none;
+        margin: 0;
+        padding: 18px 28px 8px;
       }
 
       .brand {
         color: var(--ink);
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
       }
 
       .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-        justify-content: flex-end;
-        font-size: 14px;
+        display: none;
       }
 
       .nav-links a {
@@ -121,25 +108,23 @@
       }
 
       main {
+        display: grid;
+        grid-template-columns: 270px minmax(0, 1fr);
+        gap: 52px;
         max-width: var(--max);
         margin: 0 auto;
-        padding: 54px 24px 72px;
+        padding: 36px 24px 72px;
       }
 
       .hero {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) 250px;
-        gap: 48px;
-        align-items: start;
-        padding-bottom: 54px;
-        border-bottom: 1px solid var(--line);
+        display: contents;
       }
 
       .eyebrow {
-        margin: 0 0 10px;
-        color: var(--accent);
-        font-size: 15px;
-        font-weight: 700;
+        margin: 0;
+        color: var(--ink);
+        font-size: 19px;
+        font-weight: 400;
       }
 
       h1,
@@ -149,64 +134,80 @@
       }
 
       h1 {
-        margin: 0;
-        font-size: 46px;
+        margin: 0 0 8px;
+        font-size: 24px;
         font-weight: 700;
         letter-spacing: 0;
       }
 
       .subtitle {
-        margin: 10px 0 0;
-        color: var(--muted);
-        font-size: 22px;
+        margin: 0 0 18px;
+        color: var(--ink);
+        font-size: 18px;
       }
 
       .intro {
-        margin-top: 28px;
-        font-size: 17px;
+        grid-column: 2;
+        margin-top: 16px;
+        font-size: 19px;
       }
 
       .profile {
+        grid-column: 1;
+        grid-row: 1 / span 8;
         margin: 0;
       }
 
       .profile img {
         display: block;
         width: 100%;
-        border-radius: 6px;
-        box-shadow: 0 10px 30px rgba(60, 64, 67, 0.16);
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      .sidebar-name {
+        margin: 28px 0 4px;
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .sidebar-meta {
+        margin: 0 0 14px;
+        font-size: 19px;
       }
 
       .contact {
         display: flex;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 10px;
         margin-top: 24px;
       }
 
       .contact a {
         display: inline-flex;
         align-items: center;
-        min-height: 36px;
-        padding: 6px 12px;
-        border: 1px solid var(--line);
-        border-radius: 6px;
+        justify-content: center;
+        min-width: 34px;
+        min-height: 34px;
+        padding: 0;
+        border: 0;
+        border-radius: 999px;
         color: var(--ink);
-        font-size: 14px;
-        font-weight: 600;
-        background: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        background: transparent;
+        text-decoration: underline;
       }
 
       .contact a:hover,
       .contact a:focus {
-        border-color: var(--link);
-        color: var(--link);
-        text-decoration: none;
+        color: #000;
       }
 
       section {
-        padding: 44px 0;
-        border-bottom: 1px solid var(--line);
+        grid-column: 2;
+        padding: 24px 0;
+        border-bottom: 0;
       }
 
       section:last-child {
@@ -214,13 +215,15 @@
       }
 
       h2 {
-        margin: 0 0 20px;
-        font-size: 28px;
+        margin: 0 0 24px;
+        font-size: 40px;
+        font-weight: 700;
       }
 
       h3 {
         margin: 0 0 4px;
-        font-size: 18px;
+        font-size: 19px;
+        font-weight: 700;
       }
 
       .news-list,
@@ -237,8 +240,8 @@
       .experience-list li,
       .plain-list li {
         margin: 0;
-        padding: 16px 0;
-        border-top: 1px solid #edf0f2;
+        padding: 10px 0;
+        border-top: 0;
       }
 
       .news-list li:first-child,
@@ -252,8 +255,8 @@
       .date,
       .venue,
       .award {
-        color: var(--muted);
-        font-size: 14px;
+        color: var(--ink);
+        font-size: 18px;
         font-weight: 700;
       }
 
@@ -266,9 +269,49 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        margin-top: 8px;
-        font-size: 14px;
+        margin-top: 2px;
+        font-size: 18px;
         font-weight: 700;
+      }
+
+      .award {
+        color: var(--red);
+      }
+
+      .highlight-note {
+        color: var(--deep-blue);
+        font-weight: 700;
+      }
+
+      .side-nav {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 1.1;
+      }
+
+      .side-nav a {
+        display: block;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 14px;
+        margin-top: 30px;
+      }
+
+      .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        background: #000;
+        text-decoration: none;
       }
 
       .two-column {
@@ -283,6 +326,7 @@
       }
 
       footer {
+        display: none;
         max-width: var(--max);
         margin: 0 auto;
         padding: 24px;
@@ -291,39 +335,30 @@
       }
 
       @media (max-width: 800px) {
-        .site-header {
-          position: static;
-        }
-
-        .nav {
-          align-items: flex-start;
-          flex-direction: column;
-          gap: 10px;
-        }
-
-        .nav-links {
-          justify-content: flex-start;
-        }
-
         main {
-          padding-top: 34px;
+          display: block;
+          padding-top: 28px;
         }
 
-        .hero,
-        .two-column {
-          grid-template-columns: 1fr;
-        }
-
-        .hero {
-          gap: 28px;
+        section {
+          padding: 28px 0;
         }
 
         .profile {
-          max-width: 260px;
+          max-width: 270px;
+          margin-bottom: 24px;
         }
 
         h1 {
-          font-size: 36px;
+          font-size: 24px;
+        }
+
+        h2 {
+          font-size: 34px;
+        }
+
+        .two-column {
+          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -345,11 +380,26 @@
 
     <main>
       <section class="hero" id="profile">
-        <div>
-          <p class="eyebrow">Computer Science, Purdue University</p>
-          <h1>Xiangzhe (Alex) Xu</h1>
-          <p class="subtitle">Ph.D. student advised by Prof. Xiangyu Zhang</p>
-          <div class="intro">
+        <aside class="profile" aria-label="Profile">
+          <img src="IMG_4550.jpg" alt="Xiangzhe Xu">
+          <h1 class="sidebar-name">Xiangzhe (Alex) Xu</h1>
+          <p class="sidebar-meta">Computer Science<br>Purdue University</p>
+          <p><a href="mailto:xzx@purdue.edu">xzx@purdue.edu</a></p>
+          <nav class="side-nav" aria-label="Section navigation">
+            <a href="#news">News</a>
+            <a href="#publications">Selected Publications</a>
+            <a href="#experience">Experience</a>
+            <a href="#awards">Awards</a>
+            <a href="#talks">Invited Talks &amp; Lectures</a>
+            <a href="#service">Services</a>
+          </nav>
+          <div class="social-links" aria-label="Profiles">
+            <a href="https://x.com/XiangzheX" aria-label="X">X</a>
+            <a href="https://www.linkedin.com/in/xiangzhe-xu-4a110915b/" aria-label="LinkedIn">in</a>
+            <a href="https://github.com/XZ-X" aria-label="GitHub">GH</a>
+          </div>
+        </aside>
+        <div class="intro">
             <p>
               I am a Ph.D. student at Purdue University advised by Prof.
               <a href="https://www.cs.purdue.edu/homes/xyzhang/">Xiangyu Zhang</a>.
@@ -373,22 +423,12 @@
               effectiveness of software engineering from building reliable software on top of
               hardware to building reliable agentic systems on top of AI models.
             </p>
-            <p>
+            <p class="highlight-note">
               I am always happy to discuss ideas and collaborate with researchers, including
               undergraduate students and high school students, on software engineering,
               agentic systems, and the mechanistic explainability of AI agents.
             </p>
-          </div>
-          <div class="contact" aria-label="Contact and profiles">
-            <a href="mailto:xzx@purdue.edu">xzx@purdue.edu</a>
-            <a href="https://x.com/XiangzheX">X</a>
-            <a href="https://www.linkedin.com/in/xiangzhe-xu-4a110915b/">LinkedIn</a>
-            <a href="https://github.com/XZ-X">GitHub</a>
-          </div>
         </div>
-        <figure class="profile">
-          <img src="IMG_4550.jpg" alt="Xiangzhe Xu">
-        </figure>
       </section>
 
       <section id="news">
